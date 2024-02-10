@@ -191,23 +191,23 @@
         }
       }
     },
-    "@eco-lib/fonts": {
+    "@eco-lib/utility": {
       "projectType": "library",
-      "root": "projects/eco-lib/fonts",
-      "sourceRoot": "projects/eco-lib/fonts/src",
+      "root": "projects/eco-lib/utility",
+      "sourceRoot": "projects/eco-lib/utility/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/eco-lib/fonts/ng-package.json"
+            "project": "projects/eco-lib/utility/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/eco-lib/fonts/tsconfig.lib.prod.json"
+              "tsConfig": "projects/eco-lib/utility/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/eco-lib/fonts/tsconfig.lib.json"
+              "tsConfig": "projects/eco-lib/utility/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -215,7 +215,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/eco-lib/fonts/tsconfig.spec.json",
+            "tsConfig": "projects/eco-lib/utility/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

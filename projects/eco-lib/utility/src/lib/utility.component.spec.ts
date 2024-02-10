@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FontsComponent } from './fonts.component';
+import { UtilityComponent } from './utility.component';
 
-describe('FontsComponent', () => {
-  let component: FontsComponent;
-  let fixture: ComponentFixture<FontsComponent>;
+describe('UtilityComponent', () => {
+  let component: UtilityComponent;
+  let fixture: ComponentFixture<UtilityComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FontsComponent]
+      imports: [UtilityComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(FontsComponent);
+    fixture = TestBed.createComponent(UtilityComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

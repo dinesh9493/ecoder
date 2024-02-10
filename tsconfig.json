@@ -12,6 +12,9 @@
       "@eco-lib/svg": [
         "./dist/eco-lib/svg"
       ],
+      "@eco-lib/utility": [
+        "./dist/eco-lib/utility"
+      ],
       "@ecoder/styles-lib": [
         "./dist/ecoder/styles-lib"
       ]
