@@ -2,6 +2,20 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@eco-lib/fonts": [
+        "./dist/eco-lib/fonts"
+      ],
+      "@eco-lib/styles": [
+        "./dist/eco-lib/styles"
+      ],
+      "@eco-lib/svg": [
+        "./dist/eco-lib/svg"
+      ],
+      "@ecoder/styles-lib": [
+        "./dist/ecoder/styles-lib"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
