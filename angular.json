@@ -223,39 +223,6 @@
           }
         }
       }
-    },
-    "@eco-lib/svg": {
-      "projectType": "library",
-      "root": "projects/eco-lib/svg",
-      "sourceRoot": "projects/eco-lib/svg/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/eco-lib/svg/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/eco-lib/svg/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/eco-lib/svg/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "tsConfig": "projects/eco-lib/svg/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
-          }
-        }
-      }
     }
   }
 }
